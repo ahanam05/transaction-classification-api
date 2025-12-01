@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment (NEVER commit this!)
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch/Transformers Cache (Downloaded automatically)
+.cache/
+transformers_cache/
+torch_cache/
+~/.cache/huggingface/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Model files 
+*.pth
+*.pkl
